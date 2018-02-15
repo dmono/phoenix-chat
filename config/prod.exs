@@ -18,8 +18,8 @@ config :hello, HelloWeb.Endpoint,
   load_from_system_env: true,
   url: [host: "nottherealreal.com", port: 777],
   check_origin: false,
-  cache_static_manifest: "priv/static/cache_manifest.json",
-  secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
+  cache_static_manifest: "priv/static/cache_manifest.json"
+  # secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
 
 # Do not print debug messages in production
 config :logger, level: :info
