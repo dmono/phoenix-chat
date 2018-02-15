@@ -16,7 +16,7 @@ use Mix.Config
 # url: [scheme: "https", host: "https://morning-hollows-67476.herokuapp.com/", port: 443],
 config :hello, HelloWeb.Endpoint,
   load_from_system_env: true,
-  url: [host: "example.com", port: 80],
+  url: [host: "nottherealreal.com", port: 777],
   check_origin: false,
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
