@@ -6,7 +6,7 @@ defmodule HelloWeb.UserSocket do
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket,
-        timeout: :infinity
+        timeout: 45_0000
         # serializer: [{Phoenix.Transports.WebSocketSerializer, "~> 2.0.0"}],
         # transport_log: :debug
   # transport :longpoll, Phoenix.Transports.LongPoll
